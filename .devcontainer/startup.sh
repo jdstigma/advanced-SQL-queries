@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "127.0.0.1 $(hostname)" | sudo tee -a /etc/hosts > /dev/null
+echo "127.0.0.11 $(hostname)" | sudo tee -a /etc/hosts > /dev/null
 
 echo "Waiting for PostgreSQL..."
 for i in $(seq 1 30); do
