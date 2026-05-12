@@ -9,6 +9,8 @@ RUN rm -f /etc/apt/sources.list.d/yarn.list && \
     apt-get update && \
     apt-get install -y postgresql-client postgresql postgresql-contrib
 
+RUN echo "vscode ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
 COPY requirements.txt /tmp/pip-tmp/
 RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/pip-tmp/requirements.txt \
   && rm -rf /tmp/pip-tmp
