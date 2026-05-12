@@ -1,3 +1,3 @@
-set enable_nestloop=true
+set enable_nestloop=false
 set enable_hashjoins=false
-set enable _mergejoin=false 
+set enable_mergejoin=true 
