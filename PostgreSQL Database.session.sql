@@ -1,1 +1,0 @@
-drop index idx_staff_email
