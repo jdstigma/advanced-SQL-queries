@@ -1,0 +1,3 @@
+psql -h localhost -U postgres postgres -c '\dt'
+
+print PASSWORD = postgres
