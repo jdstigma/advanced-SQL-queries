@@ -1,3 +1,2 @@
-set enable_nestloop=false
-set enable_hashjoins=false
-set enable_mergejoin=true 
+/* If this file is empty, it means the postgres script is not currently in use.
+File usage is for interacting using postgres shell, and is not used by the application itself. */ 
